@@ -34,6 +34,20 @@
 Выполнить поэлементно операцию побитовое "и" над вектором длины 6 и 
 числом 176. Результат записать в исходный вектор.
 
+### Запуск программы
+```bash
+cd:\Users\user\PycharmProjects\konfig_hw_4
+.venv\Scripts\activate
+python assembler.py --input test_all.txt --output output.bin --log output_log.csv
+python interpreter.py --input output.bin --output memory_output.csv --memory 0 10
+```
+
+```bash
+cd:\Users\user\PycharmProjects\konfig_hw_4
+.venv\Scripts\activate
+python test_program.py
+```
+
 
 ### Входные данные для тестирования: 
 
